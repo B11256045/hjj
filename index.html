@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEVENTEEN</title>
+    <style>
+        /* Basic Reset */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: black;
+            padding: 40px 0;
+            color: #FFFFFF;
+            font-size: 25px;
+            text-align: center;
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        
+        nav ul li {
+            margin: 0 15px;
+        }
+        
+        nav ul li a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        
+        .group {
+            text-align: center;
+        }
+        
+        .group img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .member {
+            flex: 1 1 30%;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .playlists {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .playlist {
+            flex: 0 0 48%;
+            margin: 5px;
+            text-align: center;
+        }
+        
+        .playlist img {
+            width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .playlist {
+                flex: 1 1 45%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .playlist {
+                flex: 1 1 100%;
+            }
+        }
+        
+        .reback-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        
+        .reback {
+            flex: 1;
+        }
+        
+        .reback img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .mv iframe,
+        {
+            flex: 1 1 45%;
+            margin: 10px;
+        }
+        
+        footer {
+            background-color: black;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        footer .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        /* Responsive Styles */
+        
+        @media (max-width: 768px) {
+            .member {
+                flex: 1 1 45%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .member {
+                flex: 1 1 100%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .member {
+                flex: 1 1 45%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .member {
+                flex: 1 1 100%;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+            }
+            .members,
+            .reback,
+            .playlist {
+                flex-direction: column;
+            }
+            .member,
+            .reback,
+            .playlist iframe {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>SEVENTEEN</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#first">首頁</a></li>
+                <li><a href="#about">簡介</a></li>
+                <li><a href="#program">綜藝</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="first">
+        <div class="group">
+            <a href="https://youtu.be/WpuatuzSDK4?si=Xr6eaHNruOLtNeJ7">
+                <img src="https://www.rappler.com/tachyon/2021/10/FBfRkxGVEAAJm5Y.jpeg?resize=3472%2C2520&zoom=0.5" alt="Responsive Image">
+            </a>
+        </div>
+    </section>
+
+
+    <section id="about" class="content">
+        <h1>簡介</h1>
+        <div class="members">
+            <div class="member">
+                <a href="https://youtu.be/F2qZWD0F7rM?si=1GAqkyO9VS7ba8SY" target="_blank">
+                    <img style="width: 80%; height: auto;" src="https://megapx-assets.dcard.tw/images/0ece92d0-1107-41f4-b38c-5d0abc4798a5/640.webp" alt="Hip-hop">
+                </a>
+                <h2>Hip-hop Team</h2>
+                <p>
+                    成員:Scoups、圓佑、珉奎、Vernon
+                    <br>定位:Rap
+                </p>
+            </div>
+            <div class="member">
+                <a href="https://youtu.be/gbLkxltoD9o?si=2Tzz1TKPojHsxjqw" target="_blank">
+                    <img style="width: 80%; height: auto;" src="https://www.kpopusaonline.com/wp-content/uploads/2023/03/17-attacca-poster-PERFORM.png" alt="Performence">
+                </a>
+                <h2>Performance Team</h2>
+                <p>
+                    成員:Jun、Hoshi、THE8、Dino
+                    <br>定位:Dance
+                </p>
+            </div>
+            <div class="member">
+                <a href="https://youtu.be/bw4AuPrLWeA?si=7dZdVx0GZ187494f" target="_blank">
+                    <img style="width: 80%; height: auto;" src="https://megapx-assets.dcard.tw/images/40d49027-f73f-4c1a-a8be-e7447c70c6fe/640.webp" alt="Vocal">
+                </a>
+                <h2>Vocal Team</h2>
+                <p>
+                    成員:淨漢、Joshua、Woozi、DK、勝寛
+                    <br>定位:Vocal
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="program" class="content">
+        <h1>綜藝</h1>
+
+        <div class="playlists">
+            <div class="playlist">
+                <a href="https://youtu.be/_7fR4fXp_dM?si=teVZHgEKV5KyiR-b" target="_blank">
+                    <img src="https://cdn2.ettoday.net/images/7445/d7445202.jpg" alt="Going seventeen">
+                </a>
+                <p>
+                    Going seventeen TTT
+                </p>
+            </div>
+            <div class="playlist">
+                <a href="https://youtu.be/T5etCb0-pO0?si=oBs5vB0TyyE2Jbmy" target="_blank">
+                    <img src="https://cdn2.ettoday.net/images/7445/d7445178.jpg" alt="Going seventeen2">
+                </a>
+                <p>
+                    Going seventeen順應特輯
+                </p>
+            </div>
+        </div>
+
+
+        <section id="program" class="content">
+
+            <div class="playlists">
+                <div class="playlist">
+                    <img src="https://bucket-img.tnlmedia.com/cabinet/2023/12/f4aeadae-09c2-414b-be12-508d9a3acf1a.jpg?fit=max&w=640&auto=compress" alt="Going seventeen3">
+                    <p>
+                        Nana tour
+                    </p>
+                </div>
+                <div class="playlist">
+                    <a href="https://youtu.be/Jz6i2gIoPNc?si=qf2GuEafA9j-UOuH" target="_blank">
+                        <img src="https://cdn2.ettoday.net/images/6996/d6996816.jpg" alt="Going seventeen4">
+                    </a>
+                    <p>
+                        出差十五夜seventeen篇
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+
+
+    <section id="reback" class="content">
+        <h1>淨漢x圓佑小分隊6/17回歸!!</h1>
+        <div class="reback-container">
+            <div class="reback">
+                <a href="https://youtu.be/59joDpsotTE?si=reCdBs3IyvAfaufY" target="_blank">
+                    <img src="https://a.ksd-i.com/a/2024-06-03/153522-1005550.jpg" alt="Jeonghan">
+                </a>
+            </div>
+            <div class="reback">
+                <a href="https://youtu.be/biGbrhdvUDE?si=NiCv7J71yJe76_WP" target="_blank">
+                    <img src="https://a.ksd-i.com/a/2024-06-03/153522-1005551.jpg" alt="Wonwoo">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <div class="social-media">
+            <a style="color: #FFFFFF;" href="https://x.com/pledis_17" target="_blank">Twitter</a><br>
+            <a style="color: #FFFFFF;" href="https://www.instagram.com/saythename_17/" target="_blank">Instagram</a><br>
+            <a style="color: #FFFFFF;" href="https://www.youtube.com/@pledis17" target="_blank">Youtube</a>
+        </div>
+    </footer>
+</body>
+
+</html>
